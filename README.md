@@ -40,25 +40,25 @@ The user-facing side of the website is built for simplicity and functionality, e
 ```bash
 git clone https://github.com/kgpian-alok/StyleThread_ecommerce.git
 ```
-2. Navigate to the client directory:
+2. Navigate to the server (backend) directory:
 
 ```bash
-cd client
+cd ./server
 ```
 3. Install dependencies:
 ```bash
 npm install
 ```
 
-4. Run the client side
+4. Run the server side
 ```bash
-npm run start
+npm run start:dev
 ```
 
-5. Navigate to the server directory:
+5. Navigate to the client (frontend) directory:
 
 ```bash
-cd server
+cd ../client
 ```
 6. Install dependencies:
 ```bash
